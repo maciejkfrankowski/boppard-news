@@ -1,0 +1,134 @@
+[
+ {
+  "id": "stadt",
+  "name": "Stadt Boppard",
+  "url": "https://www.boppard.de/rss-aktuelles/rss.xml",
+  "home": "https://www.boppard.de/aktuelles/",
+  "checked_at": "2026-11-15T18:39:10+00:00",
+  "ok": true,
+  "found": 20,
+  "added": 20,
+  "error": ""
+ },
+ {
+  "id": "kreis",
+  "name": "Kreisverwaltung Rhein-Hunsrück",
+  "url": "https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/",
+  "home": "https://www.kv-rhk.de",
+  "checked_at": "2026-11-15T18:39:11+00:00",
+  "ok": true,
+  "found": 65,
+  "added": 41,
+  "error": ""
+ },
+ {
+  "id": "wasser",
+  "name": "RheinHunsrück Wasser",
+  "url": "https://rhwasser.de/feed/",
+  "home": "https://rhwasser.de",
+  "checked_at": "2026-11-15T18:39:14+00:00",
+  "ok": true,
+  "found": 10,
+  "added": 10,
+  "error": ""
+ },
+ {
+  "id": "vrm",
+  "name": "Verkehrsverbund Rhein-Mosel",
+  "url": "https://www.vrminfo.de/verkehrsverbund/aktuelles/news/",
+  "home": "https://www.vrminfo.de",
+  "checked_at": "2026-11-15T18:39:18+00:00",
+  "ok": true,
+  "found": 8,
+  "added": 7,
+  "error": ""
+ },
+ {
+  "id": "tv-bad-salzig",
+  "name": "TV Bad Salzig",
+  "url": "https://www.tv-bad-salzig.de/feed/",
+  "home": "https://www.tv-bad-salzig.de",
+  "checked_at": "2026-11-15T18:39:20+00:00",
+  "ok": true,
+  "found": 10,
+  "added": 10,
+  "error": ""
+ },
+ {
+  "id": "ruderclub",
+  "name": "Ruderclub Germania Boppard",
+  "url": "https://rcgb1922.de/feed/",
+  "home": "https://rcgb1922.de",
+  "checked_at": "2026-11-15T18:39:22+00:00",
+  "ok": true,
+  "found": 10,
+  "added": 10,
+  "error": ""
+ },
+ {
+  "id": "vfr-bad-salzig",
+  "name": "VfR Bad Salzig",
+  "url": "https://vfr-badsalzig.de/feed/",
+  "home": "https://vfr-badsalzig.de",
+  "checked_at": "2026-11-15T18:39:25+00:00",
+  "ok": true,
+  "found": 10,
+  "added": 10,
+  "error": ""
+ },
+ {
+  "id": "dlrg",
+  "name": "DLRG Boppard",
+  "url": "https://boppard.dlrg.de/ueber-uns/neuigkeiten/",
+  "home": "https://boppard.dlrg.de",
+  "checked_at": "2026-11-15T18:39:35+00:00",
+  "ok": true,
+  "found": 1,
+  "added": 1,
+  "error": ""
+ },
+ {
+  "id": "regionalrat",
+  "name": "Regionalrat Wirtschaft Rhein-Hunsrück",
+  "url": "https://www.rhein-hunsrueck.de/",
+  "home": "https://www.rhein-hunsrueck.de",
+  "checked_at": "2026-11-15T18:39:36+00:00",
+  "ok": true,
+  "found": 3,
+  "added": 3,
+  "error": ""
+ },
+ {
+  "id": "jobcenter",
+  "name": "Jobcenter Rhein-Hunsrück",
+  "url": "https://jobcenter-rhein-hunsrueck.de/feed/",
+  "home": "https://jobcenter-rhein-hunsrueck.de",
+  "checked_at": "2026-11-15T18:39:36+00:00",
+  "ok": true,
+  "found": 10,
+  "added": 10,
+  "error": ""
+ },
+ {
+  "id": "welterbe",
+  "name": "Welterbe Oberes Mittelrheintal",
+  "url": "https://www.welterbe-mittelrheintal.de/",
+  "home": "https://www.welterbe-mittelrheintal.de",
+  "checked_at": "2026-11-15T18:39:39+00:00",
+  "ok": true,
+  "found": 6,
+  "added": 6,
+  "error": ""
+ },
+ {
+  "id": "buga29",
+  "name": "BUGA 2029",
+  "url": "https://www.buga29.de/feed/",
+  "home": "https://www.buga29.de/news/",
+  "checked_at": "2026-11-15T18:39:39+00:00",
+  "ok": true,
+  "found": 71,
+  "added": 50,
+  "error": ""
+ }
+]

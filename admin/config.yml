@@ -1,0 +1,56 @@
+# Redaktionsbereich (Sveltia CMS). Speichert Dateien über die GitHub-API ins Repository;
+# jede Speicherung ist ein Commit auf main und löst den Neuaufbau der Seite aus.
+backend:
+  name: github
+  repo: maciejkfrankowski/boppard-news
+  branch: main
+  skip_ci: false
+  commit_messages:
+    create: "artikel: neu „{{slug}}”"
+    update: "artikel: geaendert „{{slug}}”"
+    delete: "artikel: geloescht „{{slug}}”"
+    uploadMedia: "media: hinzugefuegt {{path}}"
+    deleteMedia: "media: geloescht {{path}}"
+
+site_url: https://maciejkfrankowski.github.io/boppard-news/
+display_url: https://maciejkfrankowski.github.io/boppard-news/
+
+media_folder: static/img/uploads
+public_folder: static/img/uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: articles
+    label: Artikel
+    label_singular: Artikel
+    folder: content/articles
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} ({{date}})"
+    sortable_fields: [date, title]
+    fields:
+      - {label: Titel, name: title, widget: string}
+      - {label: Datum, name: date, widget: datetime, type: date}
+      - label: Rubrik
+        name: category
+        widget: select
+        default: redaktion
+        options:          # Slugs müssen mit site.yaml übereinstimmen
+          - {label: Redaktion, value: redaktion}
+          - {label: Stadt, value: stadt}
+          - {label: Kreis, value: kreis}
+          - {label: Verkehr, value: verkehr}
+          - {label: Sport, value: sport}
+          - {label: Wirtschaft, value: wirtschaft}
+          - {label: Region, value: region}
+      - {label: Anriss, name: lead, widget: text, required: false, hint: "Ein bis zwei Sätze für Karten und unter der Überschrift."}
+      - {label: Bild, name: image, widget: image, required: false}
+      - {label: Bildquelle, name: image_credit, widget: string, required: false, hint: "Urheber oder Institution; wird als „Foto: …“ angezeigt."}
+      - {label: Auf der Startseite hervorheben, name: featured, widget: boolean, default: false}
+      - {label: Entwurf (nicht veröffentlichen), name: draft, widget: boolean, default: false}
+      - {label: Text, name: body, widget: markdown}

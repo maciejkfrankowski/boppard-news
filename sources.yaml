@@ -1,0 +1,101 @@
+# Katalog źródeł – Boppard. Pełny przegląd kandydatów: docs/02-zrodla.md
+# adapter: rss | html_links | tribe_events
+#   html_links: wymaga link_pattern (regex na pełnym URL wpisu); opcje: strip, require_date, events
+# opcje wspólne: enabled (false = pomiń), exclude_title (regex – pomija wpisy o takim tytule)
+sources:
+  - id: stadt
+    name: Stadt Boppard
+    category: stadt
+    adapter: rss
+    url: https://www.boppard.de/rss-aktuelles/rss.xml
+    home: https://www.boppard.de/aktuelles/
+
+  - id: kreis
+    name: Kreisverwaltung Rhein-Hunsrück
+    category: kreis
+    adapter: html_links
+    url: https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/
+    link_pattern: 'kv-rhk\.de/aktuelles/veroeffentlichungen/mitteilungen/[^/?#]+/$'
+    require_date: true
+    home: https://www.kv-rhk.de
+
+  - id: wasser
+    name: RheinHunsrück Wasser
+    category: kreis
+    adapter: rss
+    url: https://rhwasser.de/feed/
+    home: https://rhwasser.de
+
+  - id: vrm
+    name: Verkehrsverbund Rhein-Mosel
+    category: verkehr
+    adapter: html_links
+    url: https://www.vrminfo.de/verkehrsverbund/aktuelles/news/
+    link_pattern: 'vrminfo\.de/verkehrsverbund/aktuelles/news/detailansicht/[^/?#]+/$'
+    require_date: true
+    home: https://www.vrminfo.de
+
+  - id: tv-bad-salzig
+    name: TV Bad Salzig
+    category: sport
+    adapter: rss
+    url: https://www.tv-bad-salzig.de/feed/
+    home: https://www.tv-bad-salzig.de
+
+  - id: ruderclub
+    name: Ruderclub Germania Boppard
+    category: sport
+    adapter: rss
+    url: https://rcgb1922.de/feed/
+    home: https://rcgb1922.de
+
+  - id: vfr-bad-salzig
+    name: VfR Bad Salzig
+    category: sport
+    adapter: rss
+    url: https://vfr-badsalzig.de/feed/
+    fallback_urls:
+      - https://vfr-badsalzig.de/?feed=rss2
+      - https://vfr-badsalzig.de/?feed=atom
+    home: https://vfr-badsalzig.de
+
+  - id: dlrg
+    name: DLRG Boppard
+    category: sport
+    adapter: html_links
+    url: https://boppard.dlrg.de/ueber-uns/neuigkeiten/
+    link_pattern: 'boppard\.dlrg\.de/ueber-uns/neuigkeiten/news/[^/?#]+-\d+-n/$'
+    require_date: true
+    home: https://boppard.dlrg.de
+
+  - id: regionalrat
+    name: Regionalrat Wirtschaft Rhein-Hunsrück
+    category: wirtschaft
+    adapter: html_links
+    url: https://www.rhein-hunsrueck.de/
+    link_pattern: 'rhein-hunsrueck\.de/news/[^/?#]+-s\d+$'
+    require_date: true
+    home: https://www.rhein-hunsrueck.de
+
+  - id: jobcenter
+    name: Jobcenter Rhein-Hunsrück
+    category: wirtschaft
+    adapter: rss
+    url: https://jobcenter-rhein-hunsrueck.de/feed/
+    home: https://jobcenter-rhein-hunsrueck.de
+
+  - id: welterbe
+    name: Welterbe Oberes Mittelrheintal
+    category: region
+    adapter: html_links
+    url: https://www.welterbe-mittelrheintal.de/
+    link_pattern: 'welterbe-mittelrheintal\.de/[a-z0-9-]+/aktuelles[a-z0-9-]*/[^/?#]+$'
+    require_date: true
+    home: https://www.welterbe-mittelrheintal.de
+
+  - id: buga29
+    name: BUGA 2029
+    category: region
+    adapter: rss
+    url: https://www.buga29.de/feed/
+    home: https://www.buga29.de/news/

@@ -1,0 +1,45 @@
+lang: de
+title: Boppard
+subtitle: lokal
+tagline: Nachrichten und Rätsel aus Boppard am Rhein
+description: Täglich aktualisierte Übersicht lokaler Meldungen aus Boppard und dem Rhein-Hunsrück-Kreis.
+bot_url: https://github.com/maciejkfrankowski/boppard-news
+events_nav: false          # Veranstaltungen einblenden, sobald Kalender-Quellen angebunden sind
+tabbar: [stadt, verkehr]   # zwei Rubriken in der unteren Leiste (Smartphone)
+# contact_email: bewusst leer – ohne Adresse wird der Block „Schreiben Sie uns“ nicht angezeigt
+# weather: bewusst nicht gesetzt – kein Abruf bei Drittanbietern (DSGVO)
+
+# Betreiber für Impressum und Datenschutzerklärung (Pflichtangaben in Deutschland)
+operator:
+  name: Maciej Frankowski
+  address:
+    - "[Straße und Hausnummer – bitte eintragen]"
+    - "[PLZ und Ort – bitte eintragen]"
+  email: "[E-Mail-Adresse – bitte eintragen]"
+
+categories:
+  - {slug: stadt, name: Stadt, icon: building, color: "#1557d6"}
+  - {slug: kreis, name: Kreis, icon: map, color: "#0b7a75"}
+  - {slug: verkehr, name: Verkehr, icon: bus, color: "#2e9e4f"}
+  - {slug: sport, name: Sport, icon: ball, color: "#b45309"}
+  - {slug: wirtschaft, name: Wirtschaft, icon: briefcase, color: "#8a3ffc"}
+  - {slug: region, name: Region, icon: pin, color: "#be123c"}
+  - {slug: redaktion, name: Redaktion, icon: pen, color: "#173b2a", nav: false}
+
+ad:
+  enabled: false
+
+# Block „Nützliches“ auf der Startseite
+useful:
+  - {label: Stadt Boppard, note: Rathaus und Bürgerservice, icon: building, url: "https://www.boppard.de"}
+  - {label: Kreisverwaltung, note: Rhein-Hunsrück-Kreis, icon: map, url: "https://www.kv-rhk.de"}
+  - {label: Abfall und Entsorgung, note: Rhein-Hunsrück Entsorgung, icon: trash, url: "https://www.rh-entsorgung.de"}
+  - {label: Wasserversorgung, note: RheinHunsrück Wasser, icon: drop, url: "https://rhwasser.de"}
+  - {label: Bus und Bahn, note: VRM-Fahrplan, icon: bus, url: "https://www.vrminfo.de"}
+  - {label: Hunsrückbahn, note: Boppard – Emmelshausen, icon: train, url: "https://www.hunsrueckbahn.de"}
+  - {label: Tourist-Information, note: Boppard Tourismus, icon: pin, url: "https://www.boppard-tourismus.de"}
+  - {label: Sesselbahn, note: Betriebszeiten, icon: ticket, url: "https://www.sesselbahn-boppard.de"}
+  - {label: Museum Boppard, note: Ausstellungen, icon: ticket, url: "https://museum-boppard.de"}
+  - {label: Stadthalle, note: Veranstaltungen, icon: calendar, url: "https://www.boppard-stadthalle.de"}
+  - {label: Volkshochschule, note: Kurse, icon: bulb, url: "https://vhs-boppard.de"}
+  - {label: Kino, note: Programm, icon: ticket, url: "https://www.cinema-boppard.de"}

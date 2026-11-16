@@ -12,6 +12,30 @@
   "event_date": ""
  },
  {
+  "id": "e6486404e4a924d4",
+  "source": "wasser",
+  "source_name": "RheinHunsrück Wasser",
+  "category": "kreis",
+  "title": "Auftrag für Gasbelieferung RHW Verwaltungssitz Dörth 2027 vergeben",
+  "lead": "Auch wir können nicht alles allein! Zur effizienten und effektiven Aufgabenerfüllung müssen wir beständig Lieferungen und Leistungen bei externen Partnern beschaffen. Partner müssen dabei sorgfältig ausgewählt und die…",
+  "url": "https://rhwasser.de/vergabeverfahren-abgeschlossen/auftrag-fuer-gasbelieferung-rhw-verwaltungssitz-doerth-2027-vergeben/",
+  "published": "2026-11-16",
+  "fetched_at": "2026-11-16T12:42:26+00:00",
+  "event_date": ""
+ },
+ {
+  "id": "05db53d91c21f70f",
+  "source": "stadt",
+  "source_name": "Stadt Boppard",
+  "category": "stadt",
+  "title": "Stadtbibliothek Boppard: Bilderbuchkino „Wem gehört das Weihnachtsdings?“",
+  "lead": "Am Freitag, 27. November 2026, startet der Bopparder Weihnachtsmarkt. Aus diesem Anlass lädt die Stadtbibliothek Boppard um 16.00 Uhr Kinder von drei bis sechs Jahren zu einem weihnachtlichen Bilderbuchkino in die…",
+  "url": "https://www.boppard.de/aktuelles/stadtbibliothek-boppard-bilderbuchkino-wem-gehoert-das-weihnachtsdings/",
+  "published": "2026-11-16",
+  "fetched_at": "2026-11-16T12:42:18+00:00",
+  "event_date": ""
+ },
+ {
   "id": "78560d00f34037fc",
   "source": "vfr-bad-salzig",
   "source_name": "VfR Bad Salzig",
@@ -957,6 +981,18 @@
   "url": "https://www.welterbe-mittelrheintal.de/lag-wom/aktuelles-termine/neuer-foerderaufruf-starkes-land",
   "published": "2026-08-18",
   "fetched_at": "2026-11-15T18:39:39+00:00",
+  "event_date": ""
+ },
+ {
+  "id": "259303851b6888e7",
+  "source": "vrm",
+  "source_name": "Verkehrsverbund Rhein-Mosel",
+  "category": "verkehr",
+  "title": "Das Deutschlandticket zieht um: In die VRM Fahrplan-App",
+  "lead": "Der VRM integriert den D-Ticket-Kauf in seine bekannte VRM Fahrplan-App.",
+  "url": "https://www.vrminfo.de/verkehrsverbund/aktuelles/news/detailansicht/deutschlandticket-zieht-um-in-die-vrm-fahrplan-app/",
+  "published": "2026-08-06",
+  "fetched_at": "2026-11-16T12:42:28+00:00",
   "event_date": ""
  },
  {

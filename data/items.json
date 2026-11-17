@@ -12,6 +12,54 @@
   "event_date": ""
  },
  {
+  "id": "c90ca2bbbcb74452",
+  "source": "stadt",
+  "source_name": "Stadt Boppard",
+  "category": "stadt",
+  "title": "Gemeinschaftsjagden in Boppard vom 4. bis 6. Dezember 2026: Wanderwege und Freizeitangebote in den betroffenen Gebieten meiden",
+  "lead": "Anfang Dezember 2026 finden in den Bopparder Jagdrevieren an drei aufeinanderfolgenden Tagen mehrere Gemeinschafts- und Bewegungsjagden statt. Davon betroffen sind auch beliebte Wanderwege sowie verschiedene Freizeit…",
+  "url": "https://www.boppard.de/aktuelles/gemeinschaftsjagden-in-boppard-vom-4-bis-6-dezember-2026-wanderwege-und-freizeitangebote-in-den-betroffenen-gebieten-meiden/",
+  "published": "2026-11-17",
+  "fetched_at": "2026-11-17T13:20:10+00:00",
+  "event_date": ""
+ },
+ {
+  "id": "6ce3457495e0b570",
+  "source": "regionalrat",
+  "source_name": "Regionalrat Wirtschaft Rhein-Hunsrück",
+  "category": "wirtschaft",
+  "title": "Offiziell ausgezeichnet: Regionalrat Wirtschaft baut die neue „MINT-Region Rhein-Hunsrück“ auf",
+  "lead": "Nach einer erfolgreichen Antragsphase konnte der Regionalrat Wirtschaft Rhein-Hunsrück e. V. (ReWi) einen wichtigen Erfolg für die Standortentwicklung verbuchen: Beim Regionalen MINT-Gipfel in Bingen wurde das vom ReWi…",
+  "url": "https://www.rhein-hunsrueck.de/news/offiziell-ausgezeichnet-regionalrat-wirtschaft-baut-die-neue-mint-region-rhein-hunsrueck-auf-s228453",
+  "published": "2026-11-16",
+  "fetched_at": "2026-11-17T13:20:40+00:00",
+  "event_date": ""
+ },
+ {
+  "id": "26e16554650d2eef",
+  "source": "wasser",
+  "source_name": "RheinHunsrück Wasser",
+  "category": "kreis",
+  "title": "Pumpwerk Silberberg – Erneuerung der hydraulischen Ausrüstung ausgeschrieben",
+  "lead": "Für weitere Informationen klicken Sie hier um auf die Seite des Anbieters Subreport zu gelangen Auch wir können nicht alles allein! Zur effizienten und effektiven Aufgabenerfüllung müssen wir beständig Lieferungen und…",
+  "url": "https://rhwasser.de/vergabeverfahren-aktuell/pumpwerk-silberberg-erneuerung-der-hydraulischen-ausruestung-ausgeschrieben/",
+  "published": "2026-11-16",
+  "fetched_at": "2026-11-17T13:20:19+00:00",
+  "event_date": ""
+ },
+ {
+  "id": "c6d05db873ed6220",
+  "source": "stadt",
+  "source_name": "Stadt Boppard",
+  "category": "stadt",
+  "title": "Bopparder GästeKarte bietet ab 2027 Ermäßigung für öffentliche Stadtführung",
+  "lead": "Gute Nachrichten für Inhaberinnen und Inhaber der Bopparder GästeKarte: Ab dem 1. Januar 2027 profitieren Gäste auch bei der öffentlichen Stadtführung am Samstag von einem Preisvorteil.",
+  "url": "https://www.boppard.de/aktuelles/bopparder-gaestekarte-bietet-ab-2027-ermaessigung-fuer-oeffentliche-stadtfuehrung/",
+  "published": "2026-11-16",
+  "fetched_at": "2026-11-17T13:20:10+00:00",
+  "event_date": ""
+ },
+ {
   "id": "e6486404e4a924d4",
   "source": "wasser",
   "source_name": "RheinHunsrück Wasser",

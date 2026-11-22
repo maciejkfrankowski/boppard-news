@@ -48,6 +48,12 @@ Wpisy z `event_date` nie trafiają do strumienia wiadomości. Generator pokazuje
 (od dnia budowy), od najbliższego: dwa pierwsze w „Grodzisk dziś”, kolejne w sekcji „Najbliższe wydarzenia”
 i komplet na `/wydarzenia/`.
 
+## Ilustracje tematyczne i układ strony głównej
+Wpis bez zdjęcia dostaje ilustrację dobraną po tytule: `i18n/<lang>.yaml` → `topics` (temat → wyrażenie regularne,
+kolejność = pierwszeństwo), pliki w `static/img/topics/<temat>.svg` (17 tematów, własne rysunki). Bez dopasowania
+zostaje pastelowy kafelek kategorii. Sekcja „Najważniejsze”: dwie duże karty + zwarta lista sześciu wpisów;
+reklama (jeśli włączona) jako pasek pod sekcją. Wydarzenia o tym samym tytule i terminie z jednego źródła są scalane.
+
 ## Panel redakcji
 `admin/index.html` ładuje Sveltia CMS (wersja przypięta, z unpkg), `admin/config.yml` opisuje kolekcję
 `content/articles` (pola zgodne z nagłówkiem YAML czytanym przez `gn/build.py`). Logowanie: token GitHuba

@@ -9,9 +9,9 @@ USER_AGENT = "lokalnie-news-bot/0.2"  # gn.fetch dopisuje adres z site.yaml (bot
 TIMEOUT = 25
 
 
-def get(url: str) -> requests.Response:
+def get(url: str, tries: int = 2) -> requests.Response:
     last_error: Exception | None = None
-    for attempt in range(2):
+    for attempt in range(tries):
         try:
             response = requests.get(
                 url,
@@ -27,5 +27,6 @@ def get(url: str) -> requests.Response:
             return response
         except requests.RequestException as error:  # noqa: PERF203
             last_error = error
-            time.sleep(3 * (attempt + 1))
+            if attempt + 1 < tries:
+                time.sleep(3 * (attempt + 1))
     raise RuntimeError(f"{url}: {last_error}")

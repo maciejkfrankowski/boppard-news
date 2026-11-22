@@ -20,9 +20,13 @@ class Item:
     published: str  # ISO: YYYY-MM-DD
     fetched_at: str  # ISO datetime UTC
     event_date: str = ""  # tylko wydarzenia: RRRR-MM-DD GG:MM:SS (czas lokalny)
+    image: str = ""  # adres miniatury u źródła (opcjonalnie)
 
     def to_dict(self) -> dict:
-        return asdict(self)
+        data = asdict(self)
+        if not data["image"]:
+            del data["image"]  # brak klucza = „jeszcze nie sprawdzano” (patrz gn.fetch.add_images)
+        return data
 
 
 def make_id(url: str) -> str:

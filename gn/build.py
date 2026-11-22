@@ -63,14 +63,24 @@ def load_articles() -> list[dict]:
     return articles
 
 
-def load_items() -> list[dict]:
+def load_items(show_images: bool = False) -> list[dict]:
     path = ROOT / "data" / "items.json"
     items = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
     for item in items:
-        item.update(href=item["url"], external=True, featured=False, image="",
+        item.update(href=item["url"], external=True, featured=False, image=item.get("image") or "",
                     event_date=item.get("event_date", ""))
         if not item["event_date"]:
             item["lead"] = clean_lead(item["lead"])
+    # Miniatury ze źródeł: tylko gdy włączone w site.yaml. Ten sam obraz przy wielu wpisach jednego
+    # źródła to zwykle logo serwisu, a nie zdjęcie artykułu – takie pomijamy.
+    counts: dict[tuple, int] = {}
+    for item in items:
+        if item["image"]:
+            counts[(item["source"], item["image"])] = counts.get((item["source"], item["image"]), 0) + 1
+    for item in items:
+        usable = show_images and item["image"].startswith(("https://", "data:")) and not item["event_date"]
+        if not usable or counts[(item["source"], item["image"])] > 2:
+            item["image"] = ""
     return items
 
 
@@ -120,16 +130,25 @@ def build() -> None:
     fallback = site["categories"][0]
 
     today_iso = date.today().isoformat()
-    everything = load_articles() + load_items()
+    everything = load_articles() + load_items(bool(site.get("source_images")))
     for entry in everything:
         entry.setdefault("event_date", "")
         entry["cat"] = categories.get(entry["category"], fallback)
         entry["date_pl"] = date_pl(entry["published"])
         if entry["event_date"]:
             entry.update(event_labels(entry["event_date"]))
+    topics = [(name, re.compile(pattern, re.I)) for name, pattern in (T.get("topics") or {}).items()]
+    for entry in everything:  # ilustracja tematyczna tylko tam, gdzie nie ma zdjęcia
+        entry["topic"] = "" if entry["image"] or entry["event_date"] else next(
+            (name for name, pattern in topics if pattern.search(entry["title"])), "")
     # Wydarzenia (z terminem) idą osobnym torem: tylko nadchodzące, od najbliższego
     events = sorted((e for e in everything if e["event_date"][:10] >= today_iso),
                     key=lambda e: e["event_date"])
+    # to samo wydarzenie bywa u źródła pod dwoma adresami (np. strona główna i podstrona filii)
+    unique: dict[tuple, dict] = {}
+    for event in events:
+        unique.setdefault((event["source"], event["title"].casefold(), event["event_date"]), event)
+    events = list(unique.values())
     entries = [e for e in everything if not e["event_date"]]
     entries.sort(key=lambda e: (e["published"], not e["external"]), reverse=True)
 
@@ -139,7 +158,9 @@ def build() -> None:
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"),
                       autoescape=select_autoescape(["html"]), trim_blocks=True, lstrip_blocks=True)
-    tab_slugs = site.get("tabbar") or [c["slug"] for c in site["categories"][:2]]
+    # dolny pasek na telefonie: z konfiguracji albo pierwsza kategoria + transportowa (ikona autobusu)
+    transit = [c["slug"] for c in site["categories"][1:] if c.get("icon") == "bus"]
+    tab_slugs = site.get("tabbar") or [site["categories"][0]["slug"], *(transit or [c["slug"] for c in site["categories"][1:2]])]
     env.globals.update(show_events=site.get("events_nav", True), tabs=[categories[s] for s in tab_slugs if s in categories], t=T, p=paths, lang=site.get("lang", "pl"), site=site, nav=[c for c in site["categories"] if c.get("nav", True)],
                        build_date=date_pl(date.today().isoformat()))
 
@@ -163,10 +184,11 @@ def build() -> None:
         if entry["category"] not in seen:
             seen.add(entry["category"])
             today.append(entry)
-    top = [e for e in rest if e not in today[:4]][:3]
+    fresh = [e for e in rest if e not in today[:4]]
+    top, more = fresh[:2], fresh[2:8]  # dwie duże pozycje + zwarta lista
     columns = [{"cat": c, "entries": [e for e in rest if e["category"] == c["slug"]][:4]}
                for c in env.globals["nav"]]
-    render("index.html", "", hero=hero, today=today[:4], top=top, events=events[2:6] or events[:4],
+    render("index.html", "", hero=hero, today=today[:4], top=top, more=more, events=events[2:6] or events[:4],
            columns=[c for c in columns if c["entries"]][:3], active="")
 
     # Kategorie

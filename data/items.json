@@ -48,6 +48,31 @@
   "event_date": ""
  },
  {
+  "id": "61898a53d719affd",
+  "source": "kreis",
+  "source_name": "Kreisverwaltung Rhein-Hunsrück",
+  "category": "kreis",
+  "title": "11/23/2026 Weihnachtsmarkt in Oberwesel – Einschränkungen im ÖPNV auf den Linien 681, 682 und 688",
+  "lead": "11/23/2026 Am Samstag,, und Sonntag, 29. November 2026, findet der Weihnachtsmarkt in Oberwesel statt. Aufgrund des Weihnachtsmarktes kommt es an beiden Tagen zu Einschränkungen im öffentlichen Personennahverkehr (ÖPNV).",
+  "url": "https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/weihnachtsmarkt-in-oberwesel-einschraenkungen-im-oepnv-auf-den-linien-681-682-und-688/",
+  "published": "2026-11-28",
+  "fetched_at": "2026-11-23T14:34:04+00:00",
+  "event_date": ""
+ },
+ {
+  "id": "ddfde2bf465846e6",
+  "source": "stadt",
+  "source_name": "Stadt Boppard",
+  "category": "stadt",
+  "title": "Stadtbibliothek Boppard: Bilderbuchkino „Die verzauberte Wichteltür“",
+  "lead": "Am Donnerstag, 3. Dezember 2026, 16 Uhr, findet in der Stadtbibliothek Boppard in der Kurfürstlichen Burg ein weiteres weihnachtliches Bilderbuchkino für Kinder von drei bis sechs Jahren statt. Der Eintritt ist frei.",
+  "url": "https://www.boppard.de/aktuelles/stadtbibliothek-boppard-bilderbuchkino-die-verzauberte-wichteltuer/",
+  "published": "2026-11-23",
+  "fetched_at": "2026-11-23T14:34:03+00:00",
+  "event_date": "",
+  "image": "https://www.boppard.de/aktuelles/stadtbibliothek-boppard-bilderbuchkino-die-verzauberte-wichteltuer/bilderbuchkino-03-12-26-stadtbibliothek-1.jpg?cid=12r4.9kr1&resize=da13d1%3a1024x768c"
+ },
+ {
   "id": "0b29f4abcf769058",
   "source": "vfr-bad-salzig",
   "source_name": "VfR Bad Salzig",

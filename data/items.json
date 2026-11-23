@@ -1,5 +1,17 @@
 [
  {
+  "id": "3f36a247097b4602",
+  "source": "kreis",
+  "source_name": "Kreisverwaltung Rhein-Hunsrück",
+  "category": "kreis",
+  "title": "11/23/2026 Geänderte Öffnungszeiten des Kreisarchivs",
+  "lead": "11/23/2026 Das Kreisarchiv der Kreisverwaltung in Simmern ist am Donnerstag,, geschlossen. Ersatzweise ist es am Mittwoch, 2. Dezember 2026, 14 bis 17 Uhr, geöffnet.",
+  "url": "https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/geaenderte-oeffnungszeiten-des-kreisarchivs-2/",
+  "published": "2026-12-03",
+  "fetched_at": "2026-11-23T12:02:20+00:00",
+  "event_date": ""
+ },
+ {
   "id": "6a45e0262e8819d6",
   "source": "kreis",
   "source_name": "Kreisverwaltung Rhein-Hunsrück",
@@ -1793,7 +1805,7 @@
   "source": "kreis",
   "source_name": "Kreisverwaltung Rhein-Hunsrück",
   "category": "kreis",
-  "title": "Update 4,: Umweltschaden nach Dieselaustritt bei Wiebelsheim - Aktueller Stand und Hinweise",
+  "title": "Update 4, 19.03.2026: Umweltschaden nach Dieselaustritt bei Wiebelsheim - Aktueller Stand und Hinweise",
   "lead": "",
   "url": "https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/update-4-19-03-2026-umweltschaden-nach-dieselaustritt-bei-wiebelsheim-aktueller-stand-und-hinweise/",
   "published": "2026-03-19",

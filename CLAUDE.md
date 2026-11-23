@@ -21,6 +21,8 @@ Etap: demo na darmowej infrastrukturze (GitHub Actions + Pages). Docelowo możli
 - Linki w szablonach zawsze przez zmienną `root` (serwis działa w podkatalogu repo) i ścieżki z `p.*` (i18n).
 - Żadnych tekstów interfejsu w szablonach ani JS – wszystko w `i18n/<lang>.yaml`.
 - Strony dla czytelników nie ładują niczego z serwerów trzecich (RODO); wyjątkiem jest panel `/admin/`.
+- Marka: napis „Lokalos” pod nazwą miejscowości jest stały (`BRAND` w `gn/build.py`), klucz `subtitle` z `site.yaml` jest ignorowany; pionowe kreski stoją po lewej stronie nazwy.
+- Strona główna: po 4 wpisy w sekcji kategorii i 8 wydarzeń; zmiana kluczami `home_per_category` i `home_events` w `site.yaml`.
 - Wygląd: wariant „Zielony Grodzisk” (zmienne w `:root` w `static/style.css`). Główny blok: zdjęcie artykułu
   z zielonym przyciemnieniem albo – bez zdjęcia – rysowana panorama `static/img/panorama.svg`.
   Kafelki bez zdjęć: pastel w kolorze kategorii. Zdjęcia podpisujemy polem `image_credit` („Fot. …”).

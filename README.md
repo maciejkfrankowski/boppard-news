@@ -2,7 +2,7 @@
 
 Statyczny serwis z lokalnymi wiadomościami z Boppard (Niemcy, nad Renem) – drugi serwis na tym samym kodzie co
 `grodzisk-news`. Interfejs po niemiecku (`lang: de` w `site.yaml`, teksty w `i18n/de.yaml`).
-GitHub Actions raz dziennie pobiera komunikaty ze źródeł publicznych i publikuje stronę na GitHub Pages.
+GitHub Actions trzy razy dziennie pobiera komunikaty ze źródeł publicznych i publikuje stronę na GitHub Pages.
 
 ## Pierwsze wdrożenie
 

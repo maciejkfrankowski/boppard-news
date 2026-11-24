@@ -60,6 +60,32 @@
   "event_date": ""
  },
  {
+  "id": "d9c123b856d47022",
+  "source": "stadt",
+  "source_name": "Stadt Boppard",
+  "category": "stadt",
+  "title": "Musikalischer Weihnachtszauber zum Abschluss des Bopparder Weihnachtsmarkts",
+  "lead": "Laura Heinz und Benedikt Stumpf laden zu einem stimmungsvollen Ausklang auf dem Marktplatz ein.",
+  "url": "https://www.boppard.de/aktuelles/musikalischer-weihnachtszauber-zum-abschluss-des-bopparder-weihnachtsmarkts/",
+  "published": "2026-11-24",
+  "fetched_at": "2026-11-24T14:51:07+00:00",
+  "event_date": "",
+  "image": "https://www.boppard.de/aktuelles/musikalischer-weihnachtszauber-zum-abschluss-des-bopparder-weihnachtsmarkts/credit-stefan-saemmer-1.jpg?cid=12w1.9ktg&resize=0f42e6%3a1024x768c"
+ },
+ {
+  "id": "fab7d105c1db2132",
+  "source": "stadt",
+  "source_name": "Stadt Boppard",
+  "category": "stadt",
+  "title": "EDV und neue Medien: Nächstes Treffen am 7. Dezember 2026",
+  "lead": "Die Gruppe „EDV und neue Medien“ im Rahmen der Initiative „Ich bin dabei!“ des Landes Rheinland-Pfalz trifft sich wieder am Montag, 7. Dezember 2026, 14 Uhr, im Kleinen Saal im Dachgeschoss der Stadthalle Boppard…",
+  "url": "https://www.boppard.de/aktuelles/edv-und-neue-medien-naechstes-treffen-am-7-dezember-2026/",
+  "published": "2026-11-24",
+  "fetched_at": "2026-11-24T14:51:07+00:00",
+  "event_date": "",
+  "image": "https://www.boppard.de/aktuelles/edv-und-neue-medien-naechstes-treffen-am-7-dezember-2026/elektronische-patientenakte-galenu-mihal-istock-2233553879.jpg?cid=12vy.9ksm&resize=1cd1f4%3a1024x768c"
+ },
+ {
   "id": "ddfde2bf465846e6",
   "source": "stadt",
   "source_name": "Stadt Boppard",

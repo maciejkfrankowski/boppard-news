@@ -95,6 +95,103 @@
   }
  },
  {
+  "id": "8c4bd920feefdf0d",
+  "source": "regionalrat",
+  "source_name": "Regionalrat Wirtschaft Rhein-Hunsrück",
+  "category": "wirtschaft",
+  "title": "SAVE THE DATE: Neue Bewerbungsrunde für das Gründungsstipendium startet am 18. Januar 2027!",
+  "lead": "Das Gründungsstipendium START in RLP unterstützt Gründerinnen und Gründer aus Rheinland-Pfalz in der Frühphase dabei, ihre innovativen Geschäftsideen weiterzuentwickeln und erfolgreich am Markt zu etablieren.",
+  "url": "https://www.rhein-hunsrueck.de/news/save-the-date-neue-bewerbungsrunde-fuer-das-gruendungsstipendium-startet-am-18-januar-2027-s229181",
+  "published": "2026-11-26",
+  "fetched_at": "2026-11-25T14:17:45+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "notice",
+   "picks": [
+    "notice-4",
+    "notice-6",
+    "notice-3"
+   ]
+  }
+ },
+ {
+  "id": "78a0d87fadd63cd6",
+  "source": "buga29",
+  "source_name": "BUGA 2029",
+  "category": "region",
+  "title": "Erster Spatenstich auf Burg Rheinfels",
+  "lead": "Startschuss für die bauliche Umsetzung der Bundesgartenschau 2029 im Oberen Mittelrheintal. The post Erster Spatenstich auf Burg Rheinfels first appeared on BUGA29.",
+  "url": "https://www.buga29.de/erster-spatenstich-auf-burg-rheinfels/",
+  "published": "2026-11-25",
+  "fetched_at": "2026-11-25T14:17:50+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "road",
+   "picks": [
+    "road-3",
+    "road-4"
+   ]
+  }
+ },
+ {
+  "id": "afcb37a6f371f9db",
+  "source": "regionalrat",
+  "source_name": "Regionalrat Wirtschaft Rhein-Hunsrück",
+  "category": "wirtschaft",
+  "title": "HOCH Projektpreis 2027: 5.000 Euro für Bauprojekte von Vereinen",
+  "lead": "HOCH Baustoffe schreibt den Preis zum siebten Mal aus – Bewerbung bis 31. Januar 2027",
+  "url": "https://www.rhein-hunsrueck.de/news/hoch-projektpreis-2027-5000-euro-fuer-bauprojekte-von-vereinen-s229185",
+  "published": "2026-11-25",
+  "fetched_at": "2026-11-25T14:17:45+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "notice",
+   "picks": [
+    "notice-4",
+    "notice-6"
+   ]
+  }
+ },
+ {
+  "id": "8a00d6b550b16858",
+  "source": "wasser",
+  "source_name": "RheinHunsrück Wasser",
+  "category": "kreis",
+  "title": "Rahmenvertrag Materiallieferung 2027 für den RheinHunsrück Wasser Zweckverband vergeben",
+  "lead": "Auch wir können nicht alles allein! Zur effizienten und effektiven Aufgabenerfüllung müssen wir beständig Lieferungen und Leistungen bei externen Partnern beschaffen. Partner müssen dabei sorgfältig ausgewählt und die…",
+  "url": "https://rhwasser.de/vergabeverfahren-abgeschlossen/rahmenvertrag-materiallieferung-2027-fuer-den-rheinhunsrueck-wasser-zweckverband-vergeben/",
+  "published": "2026-11-25",
+  "fetched_at": "2026-11-25T14:17:33+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "notice",
+   "picks": [
+    "notice-6",
+    "notice-4"
+   ]
+  }
+ },
+ {
+  "id": "0bd4b7a262a49b1d",
+  "source": "stadt",
+  "source_name": "Stadt Boppard",
+  "category": "stadt",
+  "title": "Stadtverwaltung Boppard am 3. Dezember 2026 ab 14.30 Uhr geschlossen",
+  "lead": "Geschlossen",
+  "url": "https://www.boppard.de/aktuelles/stadtverwaltung-boppard-am-3-dezember-2026-ab-14-30-uhr-geschlossen/",
+  "published": "2026-11-25",
+  "fetched_at": "2026-11-25T14:17:22+00:00",
+  "event_date": "",
+  "image": "https://www.boppard.de/aktuelles/stadtverwaltung-boppard-am-3-dezember-2026-ab-14-30-uhr-geschlossen/geschlossen-istock-axel-bueckert-1215291152.jpg?cid=10x7.9l6v&resize=dadd63%3a1024x768c",
+  "photo_ai": {
+   "topic": "notice",
+   "picks": [
+    "notice-5",
+    "notice-3"
+   ]
+  }
+ },
+ {
   "id": "d9c123b856d47022",
   "source": "stadt",
   "source_name": "Stadt Boppard",
@@ -279,6 +376,25 @@
     "general-2"
    ],
    "missing": "hunting drive"
+  }
+ },
+ {
+  "id": "043675726c7716e9",
+  "source": "kreis",
+  "source_name": "Kreisverwaltung Rhein-Hunsrück",
+  "category": "kreis",
+  "title": "11/25/2026 Kreishaushalt 2027: Verabschiedung erfolgt voraussichtlich im Januar",
+  "lead": "11/25/2026 Die Kreispolitik berät aktuell den Haushaltsplanentwurf für das neue Jahr. Nachdem der Kreisausschuss am erstmals dazu beraten hat, wird eine Verabschiedung des Haushalts voraussichtlich erst Ende Januar 2027…",
+  "url": "https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/kreishaushalt-2027-verabschiedung-erfolgt-voraussichtlich-im-januar/",
+  "published": "2026-11-16",
+  "fetched_at": "2026-11-25T14:17:24+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "council",
+   "picks": [
+    "council-2",
+    "council-5"
+   ]
   }
  },
  {
@@ -2930,7 +3046,7 @@
   "source": "kreis",
   "source_name": "Kreisverwaltung Rhein-Hunsrück",
   "category": "kreis",
-  "title": "Update 3,: Umweltschaden nach Dieselaustritt Wiebelsheim - Folgemaßnahmen laufen weiter, zentraler Kontakt für Bürger eingerichtet",
+  "title": "Update 3, 16.03.2026: Umweltschaden nach Dieselaustritt Wiebelsheim - Folgemaßnahmen laufen weiter, zentraler Kontakt für Bürger eingerichtet",
   "lead": "",
   "url": "https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/update-3-16-03-2026-umweltschaden-nach-dieselaustritt-wiebelsheim-folgemassnahmen-laufen-weiter-zentraler-kontakt-fuer-buerger-eingerichtet/",
   "published": "2026-03-16",

@@ -1,5 +1,25 @@
 [
  {
+  "id": "181eda5657921421",
+  "source": "kreis",
+  "source_name": "Kreisverwaltung Rhein-Hunsrück",
+  "category": "kreis",
+  "title": "11/26/2026 Adventskonzert der Kreismusikschule Rhein-Hunsrück am 13. Dezember 2026 in Rheinböllen",
+  "lead": "",
+  "url": "https://www.kv-rhk.de/aktuelles/veroeffentlichungen/mitteilungen/adventskonzert-der-kreismusikschule-rhein-hunsrueck-am-13-dezember-2026-in-rheinboellen/",
+  "published": "2026-12-13",
+  "fetched_at": "2026-11-26T13:51:38+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "stage",
+   "picks": [
+    "stage-6",
+    "stage-1",
+    "stage-5"
+   ]
+  }
+ },
+ {
   "id": "3f36a247097b4602",
   "source": "kreis",
   "source_name": "Kreisverwaltung Rhein-Hunsrück",
@@ -92,6 +112,27 @@
     "bus-1",
     "bus-5"
    ]
+  }
+ },
+ {
+  "id": "1fe1cdec83e3a086",
+  "source": "wasser",
+  "source_name": "RheinHunsrück Wasser",
+  "category": "kreis",
+  "title": "Beschränkte Ausschreibung 49/141/2026 Rückbau HB Kreuzberg Boppard",
+  "lead": "Auch wir können nicht alles allein! Zur effizienten und effektiven Aufgabenerfüllung müssen wir beständig Lieferungen und Leistungen bei externen Partnern beschaffen. Partner müssen dabei sorgfältig ausgewählt und die…",
+  "url": "https://rhwasser.de/vergabeverfahren-abgeschlossen/beschraenkte-ausschreibung-49-141-2026-rueckbau-hb-kreuzberg-boppard/",
+  "published": "2026-11-26",
+  "fetched_at": "2026-11-26T13:51:48+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "notice",
+   "picks": [
+    "notice-6",
+    "notice-4",
+    "notice-3"
+   ],
+   "missing": "building demolition"
   }
  },
  {

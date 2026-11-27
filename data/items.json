@@ -20,6 +20,27 @@
   }
  },
  {
+  "id": "3e03ddf35966c416",
+  "source": "vrm",
+  "source_name": "Verkehrsverbund Rhein-Mosel",
+  "category": "verkehr",
+  "title": "Orgelkonzert Pfarrkirche St. Peter, Sinzig",
+  "lead": "04.12.2026 um 19:00 Uhr",
+  "url": "https://www.vrminfo.de/verkehrsverbund/aktuelles/news/detailansicht/orgelkonzert-pfarrkirche-st-peter-sinzig/",
+  "published": "2026-12-04",
+  "fetched_at": "2026-11-27T13:49:49+00:00",
+  "event_date": "",
+  "photo_ai": {
+   "topic": "stage",
+   "picks": [
+    "stage-5",
+    "stage-3",
+    "stage-1"
+   ],
+   "missing": "pipe organ"
+  }
+ },
+ {
   "id": "3f36a247097b4602",
   "source": "kreis",
   "source_name": "Kreisverwaltung Rhein-Hunsrück",
